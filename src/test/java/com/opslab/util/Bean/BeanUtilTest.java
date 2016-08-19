@@ -1,13 +1,17 @@
-package com.opslab.util.bean;
+package com.opslab.util.Bean;
 
-import com.opslab.util.StringUtil;
+import java.lang.reflect.InvocationTargetException;
+
 import junit.framework.TestCase;
 import model.BusinessLog;
 import model.Log;
 import model.Log2;
+
 import org.junit.Test;
 
-import java.lang.reflect.InvocationTargetException;
+import com.opslab.util.StringUtil;
+import com.opslab.util.bean.BeanUtil;
+import com.opslab.util.bean.PropertyFilter;
 
 public class BeanUtilTest extends TestCase {
 
